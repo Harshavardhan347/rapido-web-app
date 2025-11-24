@@ -71,6 +71,7 @@ export default function RideStatusPage() {
 
     if (!ride) {
         return (
+            // console.log(ride)
             <div className="flex flex-col items-center justify-center min-h-screen gap-4">
                 <p className="text-lg text-gray-600">Ride not found</p>
                 <Button onClick={() => router.push('/')}>Go Home</Button>
